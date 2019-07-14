@@ -1,12 +1,5 @@
-$bg-color: yellow;
-$border-color: red;
+$blue: #50d2e7;
 
-.app {
-  font-family: helvetica, arial, sans-serif;
-  padding: 2em;
-  border: 5px solid $border-color;
-
-  p {
-    background-color: $bg-color;
-  }
+body {
+  background-color: $blue;
 }
