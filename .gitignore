@@ -1,6 +1,5 @@
-.idea/
-dist/
+package-json.lock
 node_modules/
-src/**/*.jsx
-tests/__coverage__/
-tests/**/*.jsx
+yarn-error.lock
+.vscode
+*~
