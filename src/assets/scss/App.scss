@@ -1,5 +1,31 @@
 $blue: #50d2e7;
+$dark-blue: #174165;
+$white: #fff;
 
 body {
   background-color: $blue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: 'Kaushan Script', cursive;
+  color: $dark-blue;
+  text-shadow: 1px 1px 1px $white;
+}
+
+.tagline {
+  font-size: 2em;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-weight: normal;
+  margin: 0 auto;
+  color: $white;
+}
+
+.logo {
+  img {
+    position: relative;
+    top: 10px;
+  }
 }
