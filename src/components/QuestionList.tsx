@@ -50,7 +50,6 @@ export default class QuestionList extends React.Component<Props, State> {
             key={(task["group"]+""+task["id"])} 
             clicked={(taskId, groupKey)=>this.selectHandler(taskId, groupKey)}
             complete={0}
-            unlocked={this.isDependencyClear(task)}
             taskObj={task}
             />);
       })
